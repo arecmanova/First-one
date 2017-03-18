@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,800');
+body {
+}
+
+.content{
+	display: block;
+	margin: auto;
+	max-width: 80%;
+}
+h1 {
+	position: relative;
+	background:url('https://wallpaperscraft.com/image/house_fairy_tale_art_light_night_101615_3840x2160.jpg') 0 0/30% repeat;
+	font-size:4em;
+    text-transform:uppercase;
+    text-align:center;
+    font-family: Helvetica;
+	font-weight: 800;
+	line-height: 1.2em;
+    color:transparent;
+	-webkit-text-fill-color:transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    margin:auto;
+	max-width:80vh;
+	text-shadow: rgba(50,50,50,0.5) 0px 1px 1px;
+	animation:BackgroundAnimated 15s linear infinite;
+}
+    @keyframes BackgroundAnimated {
+    from {background-position:0 0}
+    to {background-position:100% 0}
+}
+h1:after {
+	content: 'O chytrém ševci a hloupém čertovi';
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -500;
+	color: transparent;
+	background: none;
+	text-shadow: 0px 1px 0px #ccc, 0px 0px 10px #555;
+}
+h2{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 1.7em;
+	margin-bottom: -0.4em;
+	margin-left: -0.3em;
+	text-shadow: 0px 1px 0px #ccc, 0px 0px 5px rgba(50,50,50,0.3);
+}
+i{
+	color: #2d2d2d;
+	
+}
+header:after {
+	clear: both;
+	content: '';
+	display: block;
+	border-bottom: 1px dotted grey;
+ }
+.zanr {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	letter-spacing: 1em;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+	color: transparent;
+	background-clip: text;
+	text-shadow: 0px 1px 0px #2d2d2d, 0px 0px 5px rgba(255,255,255,0.3);
+  }
+.zanr:after {
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 6%,rgba(255,255,255,1) 100%),url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/nami.png);
+    width: 100%;
+    height: 13.3em;
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    z-index: -500;
+    /* margin-left: 49%; */
+    background-repeat: repeat;
+    background-position: center bottom;
+    content: '';
+	opacity: 0.6;
+}
+.autor {
+	display: inline-block;
+	float: left;
+	color: #2d2d2d;
+}
+.autor span{
+	font-weight: bold;
+}
+.zdroj {
+	display: inline-block;
+	float: right;
+	color: #2d2d2d;
+}
+
+#uvod,#pytel,#soutez,#zaver{
+	padding: 0em 1em;
+	font-family: Minion;
+	font-size: 1.2em;
+}
+#uvod{
+	text-align: justify;
+}
+#uvod em{
+	text-decoration: underline;
+	color: #c46800;
+}
+#pytel{
+	position: relative;
+	overflow: hidden;
+}
+#pytel:after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0.9em;
+	width: 100%;
+	height: 15%;
+	z-index: -1;
+	opacity: 0.3;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 6%,rgba(255,255,255,1) 100%),
+				linear-gradient(to right, rgba(255,255,255,0) -30%,rgba(255,255,255,1) 100%),
+				url('https://previews.123rf.com/images/violin/violin0812/violin081200145/4061556-Dollars-background-abstract-business-money-background-Stock-Photo.jpg');
+	background-repeat: no-repeat;
+    background-position: 50% 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+	}
+ol p{
+	text-align: justify;
+}
+footer{
+	text-align: center;
+}
+#soutez{
+	position: relative;
+	overflow: hidden;
+}
+#soutez:after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0.9em;
+	width: 100%;
+	height: 8%;
+	z-index: -1;
+	opacity: 0.3;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 6%,rgba(255,255,255,1) 100%),
+				linear-gradient(to right, rgba(255,255,255,0) -30%,rgba(255,255,255,1) 100%),
+				url('https://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/winners_thumb1.jpg');
+	background-repeat: repeat-x;
+    background-position: 0 30%;
+    /*-moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;*/
+	}
