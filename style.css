@@ -13,7 +13,7 @@ h1 {
 	font-size:4em;
     text-transform:uppercase;
     text-align:center;
-    font-family: Helvetica;
+    font-family: Calibri;
 	font-weight: 800;
 	line-height: 1.2em;
     color:transparent;
@@ -58,13 +58,13 @@ header:after {
 	clear: both;
 	content: '';
 	display: block;
-	border-bottom: 1px dotted grey;
+	border-bottom: 1px dotted black;
  }
 .zanr {
 	text-transform: uppercase;
 	font-size: 1.3em;
 	letter-spacing: 1em;
-	font-family: Helvetica;
+	font-family: Calibri;
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 5px;
@@ -102,7 +102,7 @@ header:after {
 
 #uvod,#pytel,#soutez,#zaver{
 	padding: 0em 1em;
-	font-family: Minion;
+	font-family: Work Sans;
 	font-size: 1.2em;
 }
 #uvod{
